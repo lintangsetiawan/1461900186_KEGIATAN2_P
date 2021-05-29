@@ -2,6 +2,7 @@
 
 use App\Http\Controllers\MahasiswaController;
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\PerpusController;
 
 /*
 |--------------------------------------------------------------------------
@@ -19,3 +20,4 @@ Route::get('/', function () {
 });
 
 Route::resource('mahasiswa', MahasiswaController::class);
+Route::resource('perpus_0186', PerpusController::class);
